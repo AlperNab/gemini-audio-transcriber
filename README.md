@@ -1,3 +1,29 @@
+# Gemini Audio Transcriber
+
+This folder has been upgraded into a **standalone real GUI project**.
+
+Run the project GUI:
+
+```bash
+./run_gui.sh
+```
+
+Windows:
+
+```powershell
+.\run_gui_windows.ps1
+```
+
+Default local URL: `http://127.0.0.1:9124`
+
+This project includes its own FastAPI backend, browser GUI, provider settings, local/cloud LLM routing, encrypted API-key storage, file uploads, job history, exports, and a project-specific plugin configuration.
+
+See `PROJECT_IMPLEMENTATION.md` and `project_config.json` for the applied project-specific features and customization controls.
+
+---
+
+## Original README
+
 # gemini-audio-transcriber
 
 > **Production-grade audio transcription using Gemini 2.5 Flash/Pro** — with speaker diarization, multilingual support, structured JSON output, and built-in credit tracking. The open-source core powering [ToScribe](https://toscribe.to).
